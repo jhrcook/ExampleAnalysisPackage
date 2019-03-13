@@ -1,3 +1,10 @@
+^codecov\.yml$
+^appveyor\.yml$
+^\.travis\.yml$
+^docs$
+^_pkgdown\.yml$
 ^data-raw$
 ^README\.Rmd$
 ^LICENSE\.md$
+^.*\.Rproj$
+^\.Rproj\.user$

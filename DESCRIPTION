@@ -1,16 +1,21 @@
 Package: ExampleAnalysisPackage
-Title: What the Package Does (One Line, Title Case)
+Title: A Barebones Package Built by the "Package as Analysis" book
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = c("Joshua", "H"),
+           family = "Cook",
            role = c("aut", "cre"),
-           email = "first.last@example.com")
-Description: What the package does (one paragraph).
+           email = "joshuacook0023@gmail.com")
+Description: There is literally nothing done by this package. It exists from
+    running the code in my book "Package as Analysis" where I explain how to do
+    data analysis using the framework of a standard R package.
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 6.1.1
 Suggests: 
-    testthat
+    testthat,
+    covr,
+    spelling
+Language: en-US
